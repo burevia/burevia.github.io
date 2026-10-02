@@ -1,25 +1,218 @@
-<!doctype html><html lang="fr"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Contact BUREVIA | Assistance administrative et télésecrétariat B2B</title>
-<meta name="description" content="Contactez BUREVIA pour un besoin d'assistance administrative, ADV, back-office ou une proposition de sous-traitance B2B en télésecrétariat médical.">
-<meta name="robots" content="noindex,nofollow">
-<link rel="canonical" href="https://burevia.github.io/contact.html">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<meta name="theme-color" content="#13253e">
-<style>
-:root{--n:#13253e;--g:#c5a262;--g2:#94723c;--s:#f4efe6;--i:#303944;--l:#d8cdbd;--m:1180px}
-*{box-sizing:border-box}body{margin:0;background:var(--s);color:var(--i);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.55}a{color:inherit}.shell{width:min(calc(100% - 36px),var(--m));margin:auto}
-header{position:sticky;top:0;background:rgba(244,239,230,.96);border-bottom:1px solid var(--l)}.top{min-height:72px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px}.logo{text-decoration:none;color:var(--n);font-weight:900;letter-spacing:.22em;font-size:21px}.logo span{color:var(--g)}nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0}nav a{text-decoration:none;color:#5e6874;font-size:13px;font-weight:750}nav a[aria-current=page]{color:var(--n)}.mail{justify-self:end;text-decoration:none;font-size:13px;font-weight:850;border-bottom:1px solid var(--n)}
-.section{padding:104px 0}.box{max-width:850px;border-top:2px solid var(--n);padding-top:30px}.kicker{font-size:11px;text-transform:uppercase;letter-spacing:.18em;color:var(--g2);font-weight:900}h1{color:var(--n);font-size:clamp(48px,7vw,82px);line-height:.95;letter-spacing:-.05em;margin:18px 0 28px}.box p{font-size:18px;color:#5d6773}.email{display:inline-block;margin:18px 0 28px;font-size:clamp(24px,4vw,38px);font-weight:900;text-decoration:none;color:var(--n);border-bottom:2px solid var(--g)}
-.list{border-top:1px solid var(--l);margin-top:30px}.item{display:grid;grid-template-columns:36px 1fr;gap:16px;padding:15px 0;border-bottom:1px solid var(--l)}.item b{color:var(--g2)}.note{margin-top:40px;padding:22px 0;border-top:1px solid var(--l);border-bottom:1px solid var(--l);color:#5e6874}
-footer{padding:36px 0 44px;color:#737b85;font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footlinks{display:flex;gap:18px}.foot a{text-decoration:none}
-@media(max-width:950px){nav{display:none}.top{grid-template-columns:1fr auto}}@media(max-width:640px){.shell{width:calc(100% - 28px)}.section{padding:74px 0}}
-</style></head><body>
-<header><div class="shell top"><a class="logo" href="index.html">BURE<span>VIA</span></a><nav><ul><li><a href="index.html">Accueil</a></li><li><a href="pro.html">BUREVIA Pro</a></li><li><a href="medical.html">BUREVIA Médical</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul></nav><a class="mail" href="mailto:contact.burevia@gmail.com">Nous contacter</a></div></header>
-<main><section class="section"><div class="shell"><div class="box"><div class="kicker">Contact</div><h1>Parlons de votre besoin.</h1><p>Le moyen le plus simple est l'e-mail. Expliquez en quelques lignes ce que vous souhaitez déléguer, le volume approximatif et la période concernée.</p>
-<a class="email" href="mailto:contact.burevia@gmail.com">contact.burevia@gmail.com</a>
-<div class="list"><div class="item"><b>01</b><span><strong>Entreprise :</strong> indiquez la tâche, le volume estimé et les outils utilisés.</span></div><div class="item"><b>02</b><span><strong>Télésecrétariat médical :</strong> précisez qu'il s'agit d'une proposition de sous-traitance B2B, les créneaux et l'environnement de travail.</span></div><div class="item"><b>03</b><span><strong>Réponse :</strong> un premier retour est prévu sous 1 jour ouvré.</span></div></div>
-<p class="note">BUREVIA est actuellement en phase de préparation. Les prestations commerciales ne seront ouvertes qu'après l'immatriculation de l'activité.</p>
-</div></div></section></main>
-<footer><div class="shell foot"><div>BUREVIA — Site en préparation</div><div class="footlinks"><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite.html">Confidentialité</a><a href="contact.html">Contact</a></div><div>Activité non encore lancée officiellement</div></div></footer>
-</body></html>
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contact BUREVIA | Demande de besoin PRO ou MÉDICAL</title>
+    <meta name="description" content="Contactez BUREVIA pour un besoin de renfort administratif, ADV, back-office ou sous-traitance télésecrétariat médical B2B. Formulaire de qualification commerciale en pré-lancement.">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="canonical" href="https://burevia.github.io/contact.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta name="theme-color" content="#13253e">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .contact-shell {
+        max-width: 980px;
+        margin: 0 auto;
+      }
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 48px;
+        align-items: start;
+      }
+      .intro {
+        padding-top: 8px;
+      }
+      .contact-card {
+        background: rgba(255,255,255,0.35);
+        border: 1px solid var(--border-color);
+        border-radius: var(--radius-lg);
+        padding: 24px;
+      }
+      form {
+        max-width: 100%;
+      }
+      .form-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+      }
+      .full {
+        grid-column: 1 / -1;
+      }
+      .field-note {
+        font-size: 13px;
+        color: var(--text-secondary);
+        margin-top: 6px;
+      }
+      .medical-warning {
+        background: #fffaf1;
+        border: 1px solid rgba(149, 114, 60, 0.35);
+        color: var(--navy);
+        padding: 16px 18px;
+        border-left: 4px solid var(--gold);
+        margin-top: 20px;
+        font-size: 14px;
+      }
+      .compact {
+        margin-top: 24px;
+      }
+      .meta-list {
+        border-top: 1px solid var(--border-color);
+        margin-top: 28px;
+      }
+      .meta-item {
+        display: grid;
+        grid-template-columns: 36px 1fr;
+        gap: 16px;
+        border-bottom: 1px solid var(--border-color);
+        padding: 16px 0;
+      }
+      .meta-item b {
+        color: var(--gold2);
+      }
+      @media (max-width: 900px) {
+        .contact-grid,
+        .form-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#contenu">Aller au contenu</a>
+
+    <header>
+      <div class="shell top">
+        <a class="logo" href="index.html" aria-label="BUREVIA accueil">BURE<span>VIA</span></a>
+        <nav aria-label="Navigation principale">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="pro.html">BUREVIA Pro</a></li>
+            <li><a href="medical.html">BUREVIA Médical</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+        <a class="mail" href="mailto:contact.burevia@gmail.com">Nous contacter</a>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <section class="section">
+        <div class="shell contact-shell">
+          <div class="contact-grid">
+            <div class="intro">
+              <div class="kicker">Contact</div>
+              <h1>Parlons de votre besoin.</h1>
+              <p class="lead">Le plus simple reste l’échange direct. Expliquez votre contexte, le périmètre concerné et le type d’intervention que vous recherchez. BUREVIA répondra en fonction de votre besoin réel, sans obligation de déterminer un nombre d’heures à l’avance.</p>
+              <p><a class="email" href="mailto:contact.burevia@gmail.com">contact.burevia@gmail.com</a></p>
+              <p><strong>Réponse généralement sous 1 jour ouvré.</strong></p>
+
+              <div class="meta-list">
+                <div class="meta-item"><b>01</b><span>Le besoin est présenté avec le contexte le plus clair possible.</span></div>
+                <div class="meta-item"><b>02</b><span>On confirme le cadre, le périmètre, les outils et la fréquence.</span></div>
+                <div class="meta-item"><b>03</b><span>On évalue si le besoin est cohérent avec le mode d’intervention BUREVIA.</span></div>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <form action="mailto:contact.burevia@gmail.com" method="post" enctype="text/plain">
+                <div class="form-grid">
+                  <div class="full">
+                    <label for="entreprise">Entreprise</label>
+                    <input id="entreprise" name="entreprise" type="text" placeholder="Nom de l’entreprise / structure">
+                  </div>
+
+                  <div>
+                    <label for="prenom">Prénom</label>
+                    <input id="prenom" name="prenom" type="text" placeholder="Votre prénom">
+                  </div>
+
+                  <div>
+                    <label for="nom">Nom</label>
+                    <input id="nom" name="nom" type="text" placeholder="Votre nom">
+                  </div>
+
+                  <div>
+                    <label for="email">E-mail professionnel</label>
+                    <input id="email" name="email" type="email" placeholder="prenom@entreprise.fr" required>
+                  </div>
+
+                  <div>
+                    <label for="telephone">Téléphone (facultatif)</label>
+                    <input id="telephone" name="telephone" type="tel" placeholder="Votre numéro">
+                  </div>
+
+                  <div class="full">
+                    <label for="type-besoin">Type de besoin</label>
+                    <select id="type-besoin" name="type-besoin" required>
+                      <option value="">Sélectionner</option>
+                      <option value="PRO">PRO</option>
+                      <option value="MEDICAL">MÉDICAL</option>
+                    </select>
+                  </div>
+
+                  <div class="full">
+                    <label for="nature">Nature du besoin</label>
+                    <textarea id="nature" name="nature" placeholder="Décrivez votre besoin, le contexte, les tâches concernées, les outils utilisés..." required></textarea>
+                  </div>
+
+                  <div class="full">
+                    <label for="cadence">Ponctuel ou récurrent ?</label>
+                    <select id="cadence" name="cadence">
+                      <option value="">Sélectionner</option>
+                      <option value="Ponctuel">Ponctuel</option>
+                      <option value="Récurrent">Récurrent</option>
+                      <option value="Variable selon périodes">Variable selon périodes</option>
+                    </select>
+                  </div>
+
+                  <div class="full">
+                    <label for="volume">Volume / fréquence approximatif (si connu)</label>
+                    <input id="volume" name="volume" type="text" placeholder="Ex. : 2 à 4 h/semaine, pic de charge en fin de mois, vacances, etc.">
+                  </div>
+
+                  <div class="full">
+                    <label for="delai">Délai souhaité</label>
+                    <input id="delai" name="delai" type="text" placeholder="Ex. : dès que possible / dans 2 semaines / pour septembre">
+                  </div>
+
+                  <div class="full">
+                    <label for="message">Message libre</label>
+                    <textarea id="message" name="message" placeholder="Ajoutez ici toute information utile pour mieux comprendre votre contexte."></textarea>
+                  </div>
+                </div>
+
+                <div class="medical-warning">
+                  <strong>Pour un besoin MÉDICAL :</strong> ne transmettez aucune information concernant un patient, ni aucun élément de santé ou de données médicales dans ce formulaire. Toute demande de ce type devra être traitée selon un cadre professionnel défini avec le donneur d’ordre et les procédures en vigueur.
+                </div>
+
+                <div class="compact">
+                  <button type="submit">Envoyer ma demande</button>
+                </div>
+
+                <div class="field-note">
+                  En utilisant ce formulaire, vous confirmez que les informations transmises sont utilisées uniquement dans le cadre d’un échange professionnel pour évaluer un besoin éventuel. BUREVIA ne traite pas de données patient via ce canal public.
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell foot">
+        <div>BUREVIA — Site en préparation</div>
+        <div class="footlinks">
+          <a href="mentions-legales.html">Mentions légales</a>
+          <a href="confidentialite.html">Confidentialité</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div>Activité non encore lancée officiellement</div>
+      </div>
+    </footer>
+  </body>
+</html>
